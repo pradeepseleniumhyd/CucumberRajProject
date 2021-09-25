@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-25T14:16:43.016Z",
+        "line": 3,
+        "name": "Login functionality validation",
+        "description": "",
+        "id": "check-the-login-functionality;login-functionality-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigates to the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_navigates_to_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the url",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_enter_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "stepDefinitions.LoginStep.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify login page",
+            "match": {
+              "location": "stepDefinitions.LoginStep.verify_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Check the Login functionality",
+    "description": "",
+    "id": "check-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": []
+  }
+]
