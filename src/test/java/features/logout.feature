@@ -1,7 +1,18 @@
-Feature: Check the Login functionality
+Feature: Test Hooks
 
-Scenario: Login functionality validation
-Given user navigates to the browser
-When user enter the url
-Then Login page is displayed
-And Verify login page
+Scenario: This scenario is to test hooks functionality
+	Given this is the first step
+	When this is the second step
+	Then this is the third step
+
+@First
+	Scenario: This scenario is to test hooks functionality
+	Given this is the first step
+	When this is the second step
+	Then this is the third step
+	
+@Second	
+	Scenario: This scenario is to test hooks functionality
+	Given this is the first step
+	When this is the second step
+	Then this is the third step

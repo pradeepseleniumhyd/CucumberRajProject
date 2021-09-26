@@ -3,11 +3,32 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-25T14:16:43.016Z",
+        "start_timestamp": "2021-09-26T14:33:22.344Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.beforeScenario()"
+            }
+          }
+        ],
         "line": 3,
-        "name": "Login functionality validation",
+        "name": "Validation of JP Morghan Chase page through google",
         "description": "",
-        "id": "check-the-login-functionality;login-functionality-validation",
+        "id": "verify-jpmorghan-chase-results-found-in-google-page;validation-of-jp-morghan-chase-page-through-google",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
@@ -35,6 +56,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 6,
@@ -56,11 +78,528 @@
             "keyword": "And "
           }
         ]
+      },
+      {
+        "start_timestamp": "2021-09-26T14:33:22.481Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validation of JP Morghan Chase page through google",
+        "description": "",
+        "id": "verify-jpmorghan-chase-results-found-in-google-page;validation-of-jp-morghan-chase-page-through-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user navigates to the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_navigates_to_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enter the url  \"http://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.google.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.LoginStep.user_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "stepDefinitions.LoginStep.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify login page",
+            "match": {
+              "location": "stepDefinitions.LoginStep.verify_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T14:33:22.491Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validation of JP Morghan Chase page through google",
+        "description": "",
+        "id": "verify-jpmorghan-chase-results-found-in-google-page;validation-of-jp-morghan-chase-page-through-google;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_navigates_to_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter the url  \"http://www.fb.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.fb.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.LoginStep.user_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "stepDefinitions.LoginStep.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify login page",
+            "match": {
+              "location": "stepDefinitions.LoginStep.verify_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T14:33:22.498Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Validation of JP Morghan Chase page through google",
+        "description": "",
+        "id": "verify-jpmorghan-chase-results-found-in-google-page;validation-of-jp-morghan-chase-page-through-google;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_navigates_to_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter the url  \"http://www.toolsqa.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.toolsqa.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.LoginStep.user_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "stepDefinitions.LoginStep.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify login page",
+            "match": {
+              "location": "stepDefinitions.LoginStep.verify_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T14:33:22.504Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Validation of JP Morghan Chase page through google",
+        "description": "",
+        "id": "verify-jpmorghan-chase-results-found-in-google-page;validation-of-jp-morghan-chase-page-through-google;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user navigates to the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_navigates_to_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enter the url  \"http://www.gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://www.gmail.com\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinitions.LoginStep.user_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "stepDefinitions.LoginStep.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Verify login page",
+            "match": {
+              "location": "stepDefinitions.LoginStep.verify_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T14:33:22.516Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Validation of JP Morghan Chase page through google",
+        "description": "",
+        "id": "verify-jpmorghan-chase-results-found-in-google-page;validation-of-jp-morghan-chase-page-through-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user navigates to the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_navigates_to_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user enter the url and username",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_enter_the_url_and_username(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "www.fb.com",
+                  "pradeep"
+                ]
+              },
+              {
+                "cells": [
+                  "www.google.com",
+                  "raj"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "stepDefinitions.LoginStep.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify login page",
+            "match": {
+              "location": "stepDefinitions.LoginStep.verify_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-26T14:33:22.523Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Validation of JP Morghan Chase page through google",
+        "description": "",
+        "id": "verify-jpmorghan-chase-results-found-in-google-page;validation-of-jp-morghan-chase-page-through-google",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user navigates to the browser",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_navigates_to_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user enter the url and username with maps",
+            "match": {
+              "location": "stepDefinitions.LoginStep.user_enter_the_url_and_username_with_maps(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "url",
+                  "username"
+                ]
+              },
+              {
+                "cells": [
+                  "www.fb.com",
+                  "pradeep"
+                ]
+              },
+              {
+                "cells": [
+                  "www.google.com",
+                  "raj"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Login page is displayed",
+            "match": {
+              "location": "stepDefinitions.LoginStep.login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Verify login page",
+            "match": {
+              "location": "stepDefinitions.LoginStep.verify_login_page()"
+            },
+            "keyword": "And "
+          }
+        ]
       }
     ],
-    "name": "Check the Login functionality",
+    "name": "Verify JPMorghan Chase results found in Google Page",
     "description": "",
-    "id": "check-the-login-functionality",
+    "id": "verify-jpmorghan-chase-results-found-in-google-page",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/login.feature",
     "tags": []
