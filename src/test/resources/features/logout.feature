@@ -1,0 +1,18 @@
+Feature: Test Hooks
+
+Scenario: This scenario is to test hooks functionality
+	Given this is the first step
+	When this is the second step
+	Then this is the third step
+
+@First
+	Scenario: This scenario is to test hooks functionality
+	Given this is the first step
+	When this is the second step
+	Then this is the third step
+	
+@Second	
+	Scenario: This scenario is to test hooks functionality
+	Given this is the first step
+	When this is the second step
+	Then this is the third step

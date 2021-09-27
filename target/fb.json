@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-27T06:35:22.191Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3988300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 993800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.beforeScenario()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Login with invalid credentials",
+        "description": "",
+        "id": "to-check-the-fb-login-functionality;login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 988400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 801684300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2084593600,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Navigate the browser",
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.navigate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1528208800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters the url",
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.user_enters_the_url(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "http://www.facebook.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16488100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Fb login page is displayed",
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.fb_login_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 549591800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user enters username1 and password",
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.user_enters_username1_and_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "pradeep",
+                  "pradeep"
+                ]
+              },
+              {
+                "cells": [
+                  "raj",
+                  "raj123"
+                ]
+              },
+              {
+                "cells": [
+                  "selenium",
+                  "raj345"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regressionTest1234"
+          }
+        ]
+      }
+    ],
+    "name": "To check the fb login functionality",
+    "description": "",
+    "id": "to-check-the-fb-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/facebook.feature",
+    "tags": []
+  }
+]
