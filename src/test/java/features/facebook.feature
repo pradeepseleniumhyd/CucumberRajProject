@@ -41,3 +41,19 @@ And user enters username1 and password
 |selenium|raj345|
 
 
+@regressionTest123456
+Scenario: Login with invalid credentials
+Given Navigate the browser
+When User enters the url
+|http://www.facebook.com|
+Then Fb login page is displayed
+# And user enters username and password
+And user enters username1 and password123
+|username|password|
+|pradeep|pradeep|
+|raj|raj123|
+|selenium|raj345|
+
+
+
+

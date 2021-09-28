@@ -13,8 +13,8 @@ import io.cucumber.junit.CucumberOptions;
 		monochrome = true,publish = true,
 		plugin = {"pretty","html:target/fb.html","json:target/fb.json","junit:target/fb.xml"},
 		//tags = "~@regressionTest or @smokeTest"
-	tags="@regressionTest1234"
+	tags="@regressionTest123456"
 		)
-public class FbRunnerTest {
+public class FbRunner {
 
 }

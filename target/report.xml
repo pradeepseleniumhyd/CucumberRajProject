@@ -1,52 +1,80 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.351">
-<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google" time="0.121">
-<system-out><![CDATA[Given user navigates to the browser.........................................passed
+<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.13">
+<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google" time="0.012">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user navigates to the browser.........................................passed
 When user enter the url.....................................................passed
 Then Login page is displayed................................................passed
 And Verify login page.......................................................passed
-]]></system-out>
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+]]></failure>
 </testcase>
-<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 2" time="0.005">
-<system-out><![CDATA[Given user navigates to the browser.........................................passed
+<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 2" time="0.006">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user navigates to the browser.........................................passed
 When user enter the url  "http://www.google.com"............................passed
 Then Login page is displayed................................................passed
 And Verify login page.......................................................passed
-]]></system-out>
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+]]></failure>
 </testcase>
-<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 3" time="0.003">
-<system-out><![CDATA[Given user navigates to the browser.........................................passed
+<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 3" time="0.005">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user navigates to the browser.........................................passed
 When user enter the url  "http://www.fb.com"................................passed
 Then Login page is displayed................................................passed
 And Verify login page.......................................................passed
-]]></system-out>
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+]]></failure>
 </testcase>
-<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 4" time="0.002">
-<system-out><![CDATA[Given user navigates to the browser.........................................passed
+<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 4" time="0.003">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user navigates to the browser.........................................passed
 When user enter the url  "http://www.toolsqa.com"...........................passed
 Then Login page is displayed................................................passed
 And Verify login page.......................................................passed
-]]></system-out>
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+]]></failure>
 </testcase>
-<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 5" time="0.006">
-<system-out><![CDATA[Given user navigates to the browser.........................................passed
+<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 5" time="0.004">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user navigates to the browser.........................................passed
 When user enter the url  "http://www.gmail.com".............................passed
 Then Login page is displayed................................................passed
 And Verify login page.......................................................passed
-]]></system-out>
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+]]></failure>
 </testcase>
 <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 6" time="0.004">
-<system-out><![CDATA[Given user navigates to the browser.........................................passed
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user navigates to the browser.........................................passed
 When user enter the url and username........................................passed
 Then Login page is displayed................................................passed
 And Verify login page.......................................................passed
-]]></system-out>
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+]]></failure>
 </testcase>
-<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 7" time="0.004">
-<system-out><![CDATA[Given user navigates to the browser.........................................passed
+<testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google 7" time="0.009">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given user navigates to the browser.........................................passed
 When user enter the url and username with maps..............................passed
 Then Login page is displayed................................................passed
 And Verify login page.......................................................passed
-]]></system-out>
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+]]></failure>
 </testcase>
 </testsuite>

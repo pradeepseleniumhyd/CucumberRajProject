@@ -3,11 +3,27 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-26T14:33:22.344Z",
+        "start_timestamp": "2021-09-28T09:40:21.110Z",
         "before": [
           {
             "result": {
-              "duration": 2000000,
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
+            }
+          },
+          {
+            "result": {
               "status": "passed"
             },
             "match": {
@@ -26,6 +42,16 @@
             },
             "match": {
               "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)\r\n",
+              "duration": 2000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.closeDriver()"
             }
           }
         ],
@@ -80,8 +106,25 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-26T14:33:22.481Z",
+        "start_timestamp": "2021-09-28T09:40:21.137Z",
         "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
+            }
+          },
           {
             "result": {
               "status": "passed"
@@ -98,11 +141,19 @@
         "after": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.closeDriver()"
             }
           }
         ],
@@ -111,7 +162,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 12,
@@ -123,6 +173,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 13,
@@ -163,8 +214,25 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-26T14:33:22.491Z",
+        "start_timestamp": "2021-09-28T09:40:21.149Z",
         "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
+            }
+          },
           {
             "result": {
               "status": "passed"
@@ -186,6 +254,16 @@
             "match": {
               "location": "stepDefinitions.LoginStep.afterScenario()"
             }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.closeDriver()"
+            }
           }
         ],
         "type": "scenario",
@@ -193,7 +271,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 19,
@@ -233,6 +310,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 22,
@@ -245,8 +323,24 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-26T14:33:22.498Z",
+        "start_timestamp": "2021-09-28T09:40:21.158Z",
         "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
+            }
+          },
           {
             "result": {
               "status": "passed"
@@ -268,6 +362,16 @@
             "match": {
               "location": "stepDefinitions.LoginStep.afterScenario()"
             }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.closeDriver()"
+            }
           }
         ],
         "type": "scenario",
@@ -286,6 +390,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 20,
@@ -326,11 +431,26 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-26T14:33:22.504Z",
+        "start_timestamp": "2021-09-28T09:40:21.168Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
+            }
+          },
+          {
+            "result": {
               "status": "passed"
             },
             "match": {
@@ -350,6 +470,15 @@
             "match": {
               "location": "stepDefinitions.LoginStep.afterScenario()"
             }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)\r\n",
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.closeDriver()"
+            }
           }
         ],
         "type": "scenario",
@@ -357,6 +486,7 @@
         "steps": [
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 19,
@@ -385,7 +515,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 21,
@@ -397,6 +526,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 22,
@@ -409,11 +539,26 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-26T14:33:22.516Z",
+        "start_timestamp": "2021-09-28T09:40:21.175Z",
         "before": [
           {
             "result": {
-              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
+            }
+          },
+          {
+            "result": {
               "status": "passed"
             },
             "match": {
@@ -428,11 +573,20 @@
         "after": [
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.closeDriver()"
             }
           }
         ],
@@ -452,7 +606,6 @@
           },
           {
             "result": {
-              "duration": 2000000,
               "status": "passed"
             },
             "line": 32,
@@ -501,8 +654,24 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-26T14:33:22.523Z",
+        "start_timestamp": "2021-09-28T09:40:21.189Z",
         "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
+            }
+          },
           {
             "result": {
               "status": "passed"
@@ -523,6 +692,16 @@
             },
             "match": {
               "location": "stepDefinitions.LoginStep.afterScenario()"
+            }
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)\r\n",
+              "duration": 1000000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "stepDefinitions.FacebookStepDef.closeDriver()"
             }
           }
         ],
@@ -574,6 +753,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 45,

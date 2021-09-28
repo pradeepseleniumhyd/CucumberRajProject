@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: runner.SmokeRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.719 sec
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 0.943 sec <<< FAILURE!
+Validation of JP Morghan Chase page through google #1(Verify JPMorghan Chase results found in Google Page)  Time elapsed: 0.02 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+Validation of JP Morghan Chase page through google #2(Verify JPMorghan Chase results found in Google Page)  Time elapsed: 0.018 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+Validation of JP Morghan Chase page through google #3(Verify JPMorghan Chase results found in Google Page)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+Validation of JP Morghan Chase page through google #4(Verify JPMorghan Chase results found in Google Page)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+Validation of JP Morghan Chase page through google #5(Verify JPMorghan Chase results found in Google Page)  Time elapsed: 0.011 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+Validation of JP Morghan Chase page through google #6(Verify JPMorghan Chase results found in Google Page)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+Validation of JP Morghan Chase page through google #7(Verify JPMorghan Chase results found in Google Page)  Time elapsed: 0.018 sec  <<< ERROR!
+java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+

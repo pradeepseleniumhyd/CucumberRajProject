@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="5.314">
-    <testcase classname="To check the fb login functionality" name="Login with invalid credentials" time="5.092">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.121">
+    <testcase classname="To check the fb login functionality" name="Login with invalid credentials" time="26.754">
         <system-out>
             <![CDATA[Given Navigate the browser..................................................passed
 When User enters the url....................................................passed
 Then Fb login page is displayed.............................................passed
-And user enters username1 and password......................................passed
+And user enters username1 and password123...................................passed
 ]]>
         </system-out>
     </testcase>

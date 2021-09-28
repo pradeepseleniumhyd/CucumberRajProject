@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import java.util.List;
+import java.util.Map;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -111,8 +112,21 @@ public class FacebookStepDef {
 				driver.findElement(By.id("email")).sendKeys(credentials.get(i).get(0));
 				driver.findElement(By.id("pass")).sendKeys(credentials.get(i).get(1));
 				}
-		
+			
 	}
+
+	
+		@Then("user enters username1 and password123")
+	public void user_enters_username1_and_password123(DataTable dataTable) {
+	   
+			List<Map<String, String>> cred = dataTable.asMaps();
+			System.out.println(cred.get(0).get("username"));
+			System.out.println(cred.get(0).get("password"));
+			
+			
+	}
+
+
 
 
 

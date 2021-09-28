@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="runner.SmokeRunnerTest" time="0.307" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="runner.SmokeRunnerTest" time="0.092" errors="7" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="JOB_NAME" value="RajTest123"/>
+    <property name="JOB_NAME" value="RajMavenTest"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="8"/>
     <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
     <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="HUDSON_SERVER_COOKIE" value="614e08f8b01da13b"/>
-    <property name="POM_ARTIFACTID" value="CucumberNBasics"/>
     <property name="os.name" value="Windows 10"/>
     <property name="RegionCode" value="APJ"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Jenkins\jre\lib\resources.jar;C:\Program Files (x86)\Jenkins\jre\lib\rt.jar;C:\Program Files (x86)\Jenkins\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Jenkins\jre\lib\jsse.jar;C:\Program Files (x86)\Jenkins\jre\lib\jce.jar;C:\Program Files (x86)\Jenkins\jre\lib\charsets.jar;C:\Program Files (x86)\Jenkins\jre\lib\jfr.jar;C:\Program Files (x86)\Jenkins\jre\classes"/>
@@ -16,7 +15,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="POM_DISPLAYNAME" value="CucumberNBasics"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="TEMP" value="C:\WINDOWS\TEMP"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
@@ -27,9 +25,9 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="OnlineServices" value="Online Services"/>
     <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="RajTest123"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/RajTest123/3/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="JOB_BASE_NAME" value="RajMavenTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/RajMavenTest/1/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1"/>
     <property name="sun.boot.library.path" value="C:\Program Files (x86)\Jenkins\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_144"/>
@@ -40,7 +38,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Jenkins\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="3"/>
+    <property name="BUILD_ID" value="1"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -55,28 +53,25 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
     <property name="platformcode" value="KV"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/RajTest123/3/display/redirect"/>
-    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/RajMavenTest/1/display/redirect"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="user.variant" value=""/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/RajTest123/display/redirect"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/RajMavenTest/display/redirect"/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="asl.log" value="Destination=file"/>
     <property name="SERVICE_ID" value="Jenkins"/>
     <property name="COMPUTERNAME" value="LAPTOP-GO0H0EAB"/>
     <property name="user.script" value=""/>
-    <property name="POM_GROUPID" value="com.test"/>
-    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="asl.log" value="Destination=file"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-RajTest123-3"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="BUILD_TAG" value="jenkins-RajMavenTest-1"/>
     <property name="JENKINS_SERVER_COOKIE" value="614e08f8b01da13b"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -91,7 +86,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar;C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 54063"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 64087"/>
     <property name="Path" value="C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-12.0.2\bin;C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -105,20 +100,20 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/RajTest123/3/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/RajMavenTest/1/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="x86"/>
     <property name="SystemRoot" value="C:\WINDOWS"/>
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Jenkins\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="user.dir" value="C:\Users\Pratap\Documents\Raj\GitCode123\CucumberRajProject"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/RajTest123/"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/RajMavenTest/"/>
     <property name="USERDOMAIN" value="WORKGROUP"/>
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="C:\Users\Pratap\Downloads\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
-    <property name="BUILD_NUMBER" value="3"/>
+    <property name="BUILD_NUMBER" value="1"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="8e0c"/>
@@ -127,18 +122,186 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\RajTest123"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\workspace\RajMavenTest"/>
     <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
     <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #1" time="0.253"/>
-  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #2" time="0.013"/>
-  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #3" time="0.009"/>
-  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #4" time="0.006"/>
-  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #5" time="0.01"/>
-  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #6" time="0.009"/>
-  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #7" time="0.007"/>
+  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #1" time="0.02">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+</error>
+    <system-out>
+Scenario: Validation of JP Morghan Chase page through google # src/test/java/features/login.feature:3
+Browser code
+Browser code ******************************* 
+This will run before the Scenario
+User navigates to the browser
+  Given user navigates to the browser                        # stepDefinitions.LoginStep.user_navigates_to_the_browser()
+user enter the url
+  When user enter the url                                    # stepDefinitions.LoginStep.user_enter_the_url()
+Login page is displayed
+  Then Login page is displayed                               # stepDefinitions.LoginStep.login_page_is_displayed()
+Verify login page
+  And Verify login page                                      # stepDefinitions.LoginStep.verify_login_page()
+This will run after the Scenario
+      java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+</system-out>
+    <system-err>????????????????????????????????????????????????????????????????????????????
+? View your Cucumber Report at:                                            ?
+? https://reports.cucumber.io/reports/6bd31556-0bd7-448e-af24-039bc2f9ab8b ?
+?                                                                          ?
+? This report will self-destruct in 24h.                                   ?
+? Keep reports forever: https://reports.cucumber.io/profile                ?
+????????????????????????????????????????????????????????????????????????????</system-err>
+  </testcase>
+  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #2" time="0.018">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+</error>
+    <system-out>
+Scenario: Validation of JP Morghan Chase page through google # src/test/java/features/login.feature:11
+Browser code
+Browser code ******************************* 
+This will run before the Scenario
+User navigates to the browser
+  Given user navigates to the browser                        # stepDefinitions.LoginStep.user_navigates_to_the_browser()
+http://www.google.com
+  When user enter the url  &quot;http://www.google.com&quot;           # stepDefinitions.LoginStep.user_enter_the_url(java.lang.String)
+Login page is displayed
+  Then Login page is displayed                               # stepDefinitions.LoginStep.login_page_is_displayed()
+Verify login page
+  And Verify login page                                      # stepDefinitions.LoginStep.verify_login_page()
+This will run after the Scenario
+      java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+</system-out>
+  </testcase>
+  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #3" time="0.011">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+</error>
+    <system-out>
+Scenario Outline: Validation of JP Morghan Chase page through google # src/test/java/features/login.feature:25
+Browser code
+Browser code ******************************* 
+This will run before the Scenario
+User navigates to the browser
+  Given user navigates to the browser                                # stepDefinitions.LoginStep.user_navigates_to_the_browser()
+http://www.fb.com
+  When user enter the url  &quot;http://www.fb.com&quot;                       # stepDefinitions.LoginStep.user_enter_the_url(java.lang.String)
+Login page is displayed
+  Then Login page is displayed                                       # stepDefinitions.LoginStep.login_page_is_displayed()
+Verify login page
+  And Verify login page                                              # stepDefinitions.LoginStep.verify_login_page()
+This will run after the Scenario
+      java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+</system-out>
+  </testcase>
+  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #4" time="0.006">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+</error>
+    <system-out>
+Scenario Outline: Validation of JP Morghan Chase page through google # src/test/java/features/login.feature:26
+Browser code
+Browser code ******************************* 
+This will run before the Scenario
+User navigates to the browser
+  Given user navigates to the browser                                # stepDefinitions.LoginStep.user_navigates_to_the_browser()
+http://www.toolsqa.com
+  When user enter the url  &quot;http://www.toolsqa.com&quot;                  # stepDefinitions.LoginStep.user_enter_the_url(java.lang.String)
+Login page is displayed
+  Then Login page is displayed                                       # stepDefinitions.LoginStep.login_page_is_displayed()
+Verify login page
+  And Verify login page                                              # stepDefinitions.LoginStep.verify_login_page()
+This will run after the Scenario
+      java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+</system-out>
+  </testcase>
+  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #5" time="0.011">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+</error>
+    <system-out>
+Scenario Outline: Validation of JP Morghan Chase page through google # src/test/java/features/login.feature:27
+Browser code
+Browser code ******************************* 
+This will run before the Scenario
+User navigates to the browser
+  Given user navigates to the browser                                # stepDefinitions.LoginStep.user_navigates_to_the_browser()
+http://www.gmail.com
+  When user enter the url  &quot;http://www.gmail.com&quot;                    # stepDefinitions.LoginStep.user_enter_the_url(java.lang.String)
+Login page is displayed
+  Then Login page is displayed                                       # stepDefinitions.LoginStep.login_page_is_displayed()
+Verify login page
+  And Verify login page                                              # stepDefinitions.LoginStep.verify_login_page()
+This will run after the Scenario
+      java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+</system-out>
+  </testcase>
+  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #6" time="0.008">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+</error>
+    <system-out>
+Scenario: Validation of JP Morghan Chase page through google # src/test/java/features/login.feature:30
+Browser code
+Browser code ******************************* 
+This will run before the Scenario
+User navigates to the browser
+  Given user navigates to the browser                        # stepDefinitions.LoginStep.user_navigates_to_the_browser()
+[www.fb.com, pradeep]
+[www.google.com, raj]
+  When user enter the url and username                       # stepDefinitions.LoginStep.user_enter_the_url_and_username(io.cucumber.datatable.DataTable)
+Login page is displayed
+  Then Login page is displayed                               # stepDefinitions.LoginStep.login_page_is_displayed()
+Verify login page
+  And Verify login page                                      # stepDefinitions.LoginStep.verify_login_page()
+This will run after the Scenario
+      java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+</system-out>
+  </testcase>
+  <testcase classname="Verify JPMorghan Chase results found in Google Page" name="Validation of JP Morghan Chase page through google #7" time="0.018">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+</error>
+    <system-out>
+Scenario: Validation of JP Morghan Chase page through google # src/test/java/features/login.feature:39
+Browser code
+Browser code ******************************* 
+This will run before the Scenario
+User navigates to the browser
+  Given user navigates to the browser                        # stepDefinitions.LoginStep.user_navigates_to_the_browser()
+[{url=www.fb.com, username=pradeep}, {url=www.google.com, username=raj}]
+www.fb.com
+pradeep
+www.fb.com
+pradeep
+www.google.com
+raj
+  When user enter the url and username with maps             # stepDefinitions.LoginStep.user_enter_the_url_and_username_with_maps(io.cucumber.datatable.DataTable)
+Login page is displayed
+  Then Login page is displayed                               # stepDefinitions.LoginStep.login_page_is_displayed()
+Verify login page
+  And Verify login page                                      # stepDefinitions.LoginStep.verify_login_page()
+This will run after the Scenario
+      java.lang.NullPointerException
+	at stepDefinitions.FacebookStepDef.closeDriver(FacebookStepDef.java:91)
+
+</system-out>
+  </testcase>
 </testsuite>

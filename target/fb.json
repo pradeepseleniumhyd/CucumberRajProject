@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-27T06:35:22.191Z",
+        "start_timestamp": "2021-09-28T10:03:08.338Z",
         "before": [
           {
             "result": {
-              "duration": 3988300,
+              "duration": 7976800,
               "status": "passed"
             },
             "match": {
@@ -21,34 +21,16 @@
             "match": {
               "location": "stepDefinitions.FacebookStepDef.browserconfig1()"
             }
-          },
-          {
-            "result": {
-              "duration": 993800,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.LoginStep.beforeScenario()"
-            }
           }
         ],
-        "line": 32,
+        "line": 45,
         "name": "Login with invalid credentials",
         "description": "",
         "id": "to-check-the-fb-login-functionality;login-with-invalid-credentials",
         "after": [
           {
             "result": {
-              "duration": 988400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.LoginStep.afterScenario()"
-            }
-          },
-          {
-            "result": {
-              "duration": 801684300,
+              "duration": 897118200,
               "status": "passed"
             },
             "match": {
@@ -61,10 +43,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2084593600,
+              "duration": 2783538300,
               "status": "passed"
             },
-            "line": 33,
+            "line": 46,
             "name": "Navigate the browser",
             "match": {
               "location": "stepDefinitions.FacebookStepDef.navigate_the_browser()"
@@ -73,10 +55,10 @@
           },
           {
             "result": {
-              "duration": 1528208800,
+              "duration": 22958767500,
               "status": "passed"
             },
-            "line": 34,
+            "line": 47,
             "name": "User enters the url",
             "match": {
               "location": "stepDefinitions.FacebookStepDef.user_enters_the_url(io.cucumber.datatable.DataTable)"
@@ -92,10 +74,10 @@
           },
           {
             "result": {
-              "duration": 16488100,
+              "duration": 18922700,
               "status": "passed"
             },
-            "line": 36,
+            "line": 49,
             "name": "Fb login page is displayed",
             "match": {
               "location": "stepDefinitions.FacebookStepDef.fb_login_page_is_displayed()"
@@ -104,15 +86,21 @@
           },
           {
             "result": {
-              "duration": 549591800,
+              "duration": 971900,
               "status": "passed"
             },
-            "line": 38,
-            "name": "user enters username1 and password",
+            "line": 51,
+            "name": "user enters username1 and password123",
             "match": {
-              "location": "stepDefinitions.FacebookStepDef.user_enters_username1_and_password(io.cucumber.datatable.DataTable)"
+              "location": "stepDefinitions.FacebookStepDef.user_enters_username1_and_password123(io.cucumber.datatable.DataTable)"
             },
             "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
               {
                 "cells": [
                   "pradeep",
@@ -137,7 +125,7 @@
         ],
         "tags": [
           {
-            "name": "@regressionTest1234"
+            "name": "@regressionTest123456"
           }
         ]
       }
